@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient(#fff , rgb(238, 211, 211),blue, #fff);
+    background-repeat: no-repeat;
+}
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(214, 191, 191);
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.icons{
+    display: flex;
+}
+.icon-1,.icon-2,.icon-3{
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 0.5;
+
+}
+
+.icon-3 {
+    background-color: yellow;
+    border-radius: 50%;
+    margin-left:13px;
+ 
+}
+
+
+
+.icon-2:hover{
+    font-size: 20px;
+    opacity: 1;
+    transition: 0.2s;
+}
+.icon-3:hover{
+    font-size: 20px;
+    opacity: 1;
+    transition: 0.2s;
+}
+.icon-4{
+    cursor: pointer;
+    font-size: 16px;
+    opacity: 0.5;
+    color: red;
+    margin-left:13px;
+}
+.icon-4:hover{
+    font-size: 20px;
+    opacity: 1;
+    transition: 0.2s;
+
+}
+
+form{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+
+}
+form input{
+    width: 40%;
+    outline: none;
+    padding: 10px;
+    border: 2px solid rgb(214, 191, 191);
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+form button{
+    width: 40px;
+    color: black;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+form button i{
+    color: blue;
+    font-size: 25px;
+}
+
+
+
+.finish{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    
+}
+.orange{
+    font-size: 20px;
+    color: gold;
+    opacity: 1;
+}
+
+.dn{
+    display: none;
+}
